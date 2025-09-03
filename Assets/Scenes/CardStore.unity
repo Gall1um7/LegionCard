@@ -176,8 +176,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: 1}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -2, y: 1}
+  m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &435410249
 GameObject:
@@ -375,7 +375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardPrefab: {fileID: 5304434595438056584, guid: 75b698cffc144294ca92245435582f89, type: 3}
   cardPool: {fileID: 217406029}
-  PlayerData: {fileID: 0}
+  PlayerData: {fileID: 1502858149}
 --- !u!1 &580362231
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +515,7 @@ Camera:
   m_GameObject: {fileID: 876893974}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -724,10 +724,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91801101a93e24c4ea7a97b636466cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardStore: {fileID: 0}
-  playerCoins: 0
+  cardStore: {fileID: 497865084}
+  playerCoins: 30
   playerCards: 
-  playerData: {fileID: 0}
+  playerData: {fileID: 4900000, guid: 83b6d7b94c9877b49b4d1375393b6212, type: 3}
 --- !u!4 &1502858150
 Transform:
   m_ObjectHideFlags: 0
@@ -779,8 +779,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1, y: 69}
-  m_SizeDelta: {x: 200, y: 100}
+  m_AnchoredPosition: {x: -1, y: 32.947998}
+  m_SizeDelta: {x: 193.14, y: 65.896}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1655699463
 MonoBehaviour:
