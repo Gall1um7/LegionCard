@@ -1,0 +1,17 @@
+#,ID,Name,Attack,HP
+monster,1,Human Soldier,22,90
+monster,2,Musketeer,28,75
+monster,3,Human Cavalry,32,110
+monster,4,Spellbreaker,30,85
+monster,5,Giant,50,150
+monster,6,Mage,36,95
+monster,7,Witch,34,90
+monster,8,Priest,20,100
+monster,9,Swordsman,42,80
+monster,10,Gryphon,45,140
+monster,11,Mercenary,30,100
+#,ID,Name,Effect,
+spell,12,Fireball,Take 50 Damage,
+spell,13,Lesser Healing,Heal 40 HP,
+spell,14,Greater Healing,Heal 80 HP,
+spell,15,Freeze Spell,Freeze a monster,
